@@ -18,10 +18,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    background-color: gray;
+    background-image: url('https://cdn.noorman.agency/ob/assets/images/ob-bg.png');
+    background-size: cover;
 }
